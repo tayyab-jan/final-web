@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+nav{
+    background-color: #605757;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+nav h1 {
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2.5rem;
+    padding-left: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-right: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    align-self: center;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    padding: 6px;
+}
+nav .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+.sign-btn{
+    font-size: 1rem;
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    background-color: #fd0606;
+    color: #fff;
+    cursor: pointer;
+}
+.log-btn{
+    font-size: 1rem;
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    background-color: #fd0606;
+    color: #fff;
+    cursor: pointer;
+}
+.links a:hover{
+    background-color: #a49f9f28;
+    border-radius: 10px;
+    color: #fff;
+}
+.sign-btn:hover{
+    background-color: #9e3d3d;
+}
+.log-btn:hover{
+    background-color: #9e3d3d;
+}
+.main-contanr{
+    height: 600px;
+    width: 1000px;
+    margin: 20px auto ;
+    background-color: #fff;
+}
+.headeing{
+   padding-left: 100px;
+   padding-bottom: 10px;
+   padding-top: 30px;
+   cursor: pointer;
+}
+.headeing h3{
+    font-size: 30px;
+}
+.foods{
+    padding-left: 35px;
+    margin-top: 10px;
+}
+.foods .p-boxes{
+    display: inline-block;
+    background-color: #e5f505;
+    width: 300px;
+    padding: 10px 8px;
+    font-size: 20px;
+    word-spacing: 5px;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 7px;
+}
+.section-2{
+   position: absolute;
+   top: 100px;
+   left: 480px;
+}
+.section-3{
+   position: absolute;
+   top: 100px;
+   left: 800px;
+}
+a:hover{
+    background-color: #00000028;
+    border-radius: 5px;
+}
+.foods .p-boxes:hover{
+    background-color: #e5f5057e;
+}
